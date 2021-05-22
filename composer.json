@@ -9,6 +9,12 @@
       "email": "webjure@gmail.com"
     }
   ],
+  "keywords": [
+    "laravel",
+    "eloquent",
+    "binary",
+    "cast"
+  ],
   "support": {
     "issues": "https://github.com/jBernavaPrah/eloquent-binary-cast/issues",
     "source": "https://github.com/jBernavaPrah/eloquent-binary-cast"
