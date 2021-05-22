@@ -8,7 +8,7 @@ use Illuminate\Database\PostgresConnection;
 
 class BinaryCast implements CastsAttributes
 {
-   protected function getPostgresCast($value)
+    protected function getPostgresCast($value)
     {
         if (is_resource($value)) {
             rewind($value);
@@ -39,7 +39,7 @@ class BinaryCast implements CastsAttributes
     /**
      * @inheritDoc
      */
-    public function set($model,  $key, $value, array $attributes)
+    public function set($model, $key, $value, array $attributes)
     {
         if ($model->getConnection() instanceof PostgresConnection) {
             return $this->setPostgresCast($value);
