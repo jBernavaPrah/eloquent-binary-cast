@@ -1,7 +1,7 @@
 <?php
 
 
-namespace JBernavaPrah\EloquentBinaryCast;
+namespace JBernavaPrah\EloquentBinaryCast\Casts;
 
 use Illuminate\Contracts\Database\Eloquent\CastsAttributes;
 use Illuminate\Database\PostgresConnection;
