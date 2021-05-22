@@ -9,6 +9,10 @@
       "email": "webjure@gmail.com"
     }
   ],
+  "support": {
+    "issues": "https://github.com/jBernavaPrah/eloquent-binary-cast/issues",
+    "source": "https://github.com/jBernavaPrah/eloquent-binary-cast"
+  },
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
