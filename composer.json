@@ -1,6 +1,6 @@
 {
   "name": "jbernavaprah/eloquent-binary-cast",
-  "description": "Cast correctly binary data (meanly for postgresql)",
+  "description": "Cast correctly binary data (mainly for PostgreSQL)",
   "type": "library",
   "license": "MIT",
   "authors": [
